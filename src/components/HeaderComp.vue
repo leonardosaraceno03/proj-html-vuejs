@@ -75,6 +75,7 @@ nav {
   background-image: url("../assets/img/header phlox.jpg");
   background-size: cover;
   padding-top: 50px;
+  height: 100vh;
 }
 nav > :nth-child(1){
   display: flex;
@@ -104,12 +105,7 @@ div > h1{
   color: white;
   margin-top: 200px;
 }
-.green-line{
-  width: 50px;
-  height: 1px;
-  align-self: flex-end;
-  border: 2px solid #39ffbf;
-}
+
 .read-more{
   background-color: #39ffbf;
   width: 200px;
@@ -118,5 +114,11 @@ div > h1{
   display: flex;
   align-items: center;
   color: black;
+}
+.green-line{
+  color: #39ffbf;
+  width: 50px;
+  border: 2px solid;
+  align-self: flex-end;
 }
 </style>
