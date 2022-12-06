@@ -60,9 +60,16 @@
           <div class="green-line-us"></div>
           <div>PROJECT</div>
         </div>
-        <h2 class="project-title">
+        <div class="title-arrow">
+          <h2 class="project-title">
           OUR EXPERT TRUSTED CONSULTANTS HELP CLIENTS
         </h2>
+        <div class="white arrow-container">
+          <div><font-awesome-icon icon="fa-solid fa-arrow-left" /></div>
+          <div><font-awesome-icon icon="fa-solid fa-arrow-right" /></div>
+        </div>
+        </div>
+        
         <div class="container-img-project">
           <div><img src="../assets/img/DRY-1-790x592.jpg" alt="" /></div>
           <div>
@@ -228,6 +235,29 @@ export default {
 </script>
 
 <style>
+.title-arrow{
+  display: flex;
+  justify-content: space-between;
+}
+.arrow-container{
+  display: flex;
+  gap: 10px;
+}
+.arrow-container>div{
+  background: rgba(255, 255, 255, .2) ;
+  padding: 30px;
+  font-size: 1.5rem;
+  height: 90px;
+}
+.get-started:hover{
+  background: white;
+  color: red;
+  border: 1px solid red;
+}
+.arrow-container>div:hover{
+  color: #35ffbf;
+  background: white;
+}
 .about-work-container > div > div{
   background-color: #1f1e38;
   color: white;

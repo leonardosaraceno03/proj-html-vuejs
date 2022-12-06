@@ -58,6 +58,7 @@ export default {
   width: 90%;
   margin: 0 auto;
   padding-top: 50px;
+  padding-bottom: 50px;
   border-top: 1px solid white;
 }
 .fa-brands {

@@ -11,6 +11,7 @@
             v-for="(elem, index) in sectionArray"
             :key="index"
             :sezione="elem"
+            class="hover-list"
           />
         </ul>
       </div>
@@ -57,7 +58,17 @@ export default {
 </script>
 
 <style>
-
+.read-more:hover{
+  background: white;
+ color: #1f1e38;
+}
+.hover-list{
+  height: 10px;
+}
+.hover-list :hover{
+  border-top: 2px solid white;
+  padding-top: 15px;
+}
 * {
   margin: 0;
   padding: 0;
