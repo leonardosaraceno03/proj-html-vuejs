@@ -17,7 +17,7 @@
       <!-- TITLE SECTION -->
       <section class="jumbotron">
         <div>
-        <div class="container-line">
+        <div class="container-line-header">
           <div class="green-line"></div>
           <div>ALWAYS THE BEST WAY YOU NEED IT</div>
         </div>
@@ -63,10 +63,11 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-.container-line{
+.container-line-header{
   display: flex;
   position: relative;
   gap: 20px;
+  margin-top: 150px;
 }
 .container-line :nth-child(2){
   letter-spacing: .5rem;
@@ -74,7 +75,7 @@ export default {
 nav {
   background-image: url("../assets/img/header phlox.jpg");
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 30px;
   height: 100vh;
 }
 nav > :nth-child(1){
@@ -103,7 +104,7 @@ div > h1{
   width: 90%;
   margin: 0 auto;
   color: white;
-  margin-top: 200px;
+  
 }
 
 .read-more{
@@ -117,8 +118,10 @@ div > h1{
 }
 .green-line{
   color: #39ffbf;
+  background: #39ffbf;
   width: 50px;
   border: 2px solid;
   align-self: flex-end;
+  
 }
 </style>
