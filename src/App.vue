@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    
     <HeaderComp />
+
     <MainComp />
+
     <FooterComp />
   </div>
 </template>
@@ -19,7 +20,6 @@ export default {
     MainComp,
     FooterComp,
   },
-  
 };
 </script>
 

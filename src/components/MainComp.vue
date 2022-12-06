@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <div>
     <section>
       <div class="container">
         <div><h2>OUR CONSULTANT CAN HELP YOU</h2></div>
@@ -189,7 +189,7 @@
        
       </div>
     </section>
-  </main>
+  </div>
 </template>
 
 <script>
