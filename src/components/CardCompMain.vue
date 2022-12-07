@@ -33,7 +33,7 @@ export default {
 }
 .card-consulting {
   padding-top: 100px;
-  width: 40%;
+  width: 300px;
 }
 p {
   display: flex;
